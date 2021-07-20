@@ -51,3 +51,11 @@ console.log(abc);
 
 var n = null;
 console.log(n);
+
+/*
+At a very high level, there are two types of data types
+in javascript
+1. Primitive Data Types: Undefined, Null, Number, String, Boolean, Symbol
+2. Refrence Data Types: Arrays and Object
+
+*/
