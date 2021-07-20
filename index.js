@@ -20,3 +20,21 @@
 var number1 = 2;
 var number2=6;
 console.log(number1+number2);
+
+//4. Datatypes in javascript
+//String
+var str1 = 'This is a string';
+var str2 = "This is a string";
+
+//Number
+var num1 = 455;
+var num2= 45.6;
+
+//Objects
+var marks = {
+    ravi: 34 ,
+    sed : 37,
+    lgt:  67
+}
+
+//Boolean
