@@ -36,7 +36,7 @@ var marks = {
     sed : 37,
     lgt:  67
 }
-
+console.log(marks);
 //Boolean
 var a= true;
 var b = false;
@@ -48,3 +48,6 @@ console.log(a);
 
 var abc;
 console.log(abc);
+
+var n = null;
+console.log(n);
