@@ -41,3 +41,10 @@ var marks = {
 var a= true;
 var b = false;
 console.log(a);
+
+
+// Undefined
+// var und = undefined;
+
+var abc;
+console.log(abc);
