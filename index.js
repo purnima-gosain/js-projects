@@ -59,3 +59,15 @@ in javascript
 2. Refrence Data Types: Arrays and Object
 
 */
+var arr = [1,2,3,4,4];
+console.log(arr);
+
+//Operators in Javascript
+//Arithmetic Operators
+
+var a= 36;
+var b = 2;
+console.log("The value is a + b is : ", a+b);
+console.log("The value is a - b is : ", a-b);
+console.log("The value is a * b is : ", a*b);
+console.log("The value is a / b is : ", a/b);
