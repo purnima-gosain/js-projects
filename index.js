@@ -38,3 +38,6 @@ var marks = {
 }
 
 //Boolean
+var a= true;
+var b = false;
+console.log(a);
