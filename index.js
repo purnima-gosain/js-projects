@@ -86,9 +86,24 @@ console.log(c);
 //Comparison operator
 var x=34;
  var y = 56;
- console.log(x==y);
- console.log(x>=y);
- console.log(x!=y);
- console.log(x<y);
- console.log(x>y);
- 
+//  console.log(x==y);
+//  console.log(x>=y);
+//  console.log(x<y);
+//  console.log(x>y);
+
+ //Logical Operators
+
+ //Logical And
+// console.log(true && true);
+// console.log(true && false);
+// console.log(false && false);
+
+
+//Logical OR
+// console.log(true ||true);
+// console.log(true|| false);
+// console.log(false ||false);
+
+//Logical Not
+console.log(!false);
+console.log(!true);
