@@ -71,3 +71,13 @@ console.log("The value is a + b is : ", a+b);
 console.log("The value is a - b is : ", a-b);
 console.log("The value is a * b is : ", a*b);
 console.log("The value is a / b is : ", a/b);
+
+//Assignment Operators
+
+var c = b;
+// c +=2;
+
+// c -= 5;
+c *= 2;
+// c /= 2;
+console.log(c);
