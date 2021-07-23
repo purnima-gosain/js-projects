@@ -19,7 +19,7 @@
 //What are variables? - Containers to store data values
 var number1 = 2;
 var number2=6;
-console.log(number1+number2);
+// console.log(number1+number2);
 
 //4. Datatypes in javascript
 //String
@@ -36,21 +36,21 @@ var marks = {
     sed : 37,
     lgt:  67
 }
-console.log(marks);
+// console.log(marks);
 //Boolean
 var a= true;
 var b = false;
-console.log(a);
+// console.log(a);
 
 
 // Undefined
 // var und = undefined;
 
 var abc;
-console.log(abc);
+// console.log(abc);
 
-var n = null;
-console.log(n);
+// var n = null;
+// console.log(n);
 
 /*
 At a very high level, there are two types of data types
@@ -60,17 +60,17 @@ in javascript
 
 */
 var arr = [1,2,3,4,4];
-console.log(arr);
+// console.log(arr);
 
 //Operators in Javascript
 //Arithmetic Operators
 
 var a= 36;
 var b = 2;
-console.log("The value is a + b is : ", a+b);
-console.log("The value is a - b is : ", a-b);
-console.log("The value is a * b is : ", a*b);
-console.log("The value is a / b is : ", a/b);
+// console.log("The value is a + b is : ", a+b);
+// console.log("The value is a - b is : ", a-b);
+// console.log("The value is a * b is : ", a*b);
+// console.log("The value is a / b is : ", a/b);
 
 //Assignment Operators
 
@@ -80,7 +80,7 @@ var c = b;
 // c -= 5;
 c *= 2;
 // c /= 2;
-console.log(c);
+// console.log(c);
 
 
 //Comparison operator
@@ -105,5 +105,14 @@ var x=34;
 // console.log(false ||false);
 
 //Logical Not
-console.log(!false);
-console.log(!true);
+// console.log(!false);
+// console.log(!true);
+
+//Functions in javascript
+//
+function avg(a,b){
+    return (a+b)/2;
+}
+c1 = avg(4,6);
+c2 = avg(14, 16);
+console.log(c1, c2);
