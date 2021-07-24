@@ -182,13 +182,21 @@ let j = 0;
 // }
 // while (j < arr.length);
 
-
+//Array Methods in JavaScript
 let myArr=["Fan","Camera",34,null,true]
 
-console.log(myArr.length);  
+// console.log(myArr.length);  
 // myArr.pop(); //removing the last element
 // console.log(myArr); 
 // myArr.push("Poo");//to add the element
 // myArr.shift()
-myArr.unshift("Poo"); //add element on the first index
-console.log(myArr); 
+// myArr.unshift("Poo"); //add element on the first index
+// console.log(myArr); 
+
+//String methods in JavaScript
+
+let myString="Poo is very good very very";
+
+console.log(myString.length);
+console.log(myString.indexOf("very"));
+console.log(myString.lastIndexOf("very"));
