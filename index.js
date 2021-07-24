@@ -18,7 +18,7 @@
 //3. Javascript variables
 //What are variables? - Containers to store data values
 var number1 = 2;
-var number2=6;
+var number2 = 6;
 // console.log(number1+number2);
 
 //4. Datatypes in javascript
@@ -28,17 +28,17 @@ var str2 = "This is a string";
 
 //Number
 var num1 = 455;
-var num2= 45.6;
+var num2 = 45.6;
 
 //Objects
 var marks = {
-    ravi: 34 ,
-    sed : 37,
-    lgt:  67
+    ravi: 34,
+    sed: 37,
+    lgt: 67
 }
 // console.log(marks);
 //Boolean
-var a= true;
+var a = true;
 var b = false;
 // console.log(a);
 
@@ -59,13 +59,13 @@ in javascript
 2. Refrence Data Types: Arrays and Object
 
 */
-var arr = [1,2,3,4,4];
+var arr = [1, 2, 3, 4, 4];
 // console.log(arr);
 
 //Operators in Javascript
 //Arithmetic Operators
 
-var a= 36;
+var a = 36;
 var b = 2;
 // console.log("The value is a + b is : ", a+b);
 // console.log("The value is a - b is : ", a-b);
@@ -84,16 +84,16 @@ c *= 2;
 
 
 //Comparison operator
-var x=34;
- var y = 56;
+var x = 34;
+var y = 56;
 //  console.log(x==y);
 //  console.log(x>=y);
 //  console.log(x<y);
 //  console.log(x>y);
 
- //Logical Operators
+//Logical Operators
 
- //Logical And
+//Logical And
 // console.log(true && true);
 // console.log(true && false);
 // console.log(false && false);
@@ -144,12 +144,20 @@ var x=34;
 // }
 // console.log("end of ladder.");
 
-var arr =[1,2,3,4,5,6];
+var arr = [1, 2, 3, 4, 5, 6];
 /*console.log(arr);
 for(var i =0; i<arr.length;i++){
     console.log(arr[i]);
 }*/
 
-arr.forEach(function(element){
-    console.log(element);
-})
+// arr.forEach(function(element){
+//     console.log(element);
+// })
+
+let j = 0;
+// const ab = 0;
+
+while(j<arr.length){
+    console.log(arr[j]);
+    j++;
+}
