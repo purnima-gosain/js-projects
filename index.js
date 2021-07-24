@@ -195,8 +195,12 @@ let myArr=["Fan","Camera",34,null,true]
 
 //String methods in JavaScript
 
-let myString="Poo is very good very very";
+let myString="Poo is very good. ";
 
-console.log(myString.length);
-console.log(myString.indexOf("very"));
-console.log(myString.lastIndexOf("very"));
+// console.log(myString.length);
+// console.log(myString.indexOf("very"));
+// console.log(myString.lastIndexOf("very"));
+
+// console.log(myString.slice(0,3));
+// p=myString.replace("Poo","Pixi");
+// console.log(p, myString);
