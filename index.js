@@ -145,24 +145,24 @@ var y = 56;
 // console.log("end of ladder.");
 
 var arr = [1, 2, 3, 4, 5, 6];
-console.log(arr);
-for(var i =0; i<arr.length;i++){
-    if(i==3){
-        break;
-    }
-    console.log(arr[i]);
+// console.log(arr);
+// for(var i =0; i<arr.length;i++){
+//     if(i==3){
+//         break;
+//     }
+//     console.log(arr[i]);
     
-}
-console.log("break");
+// }
+// console.log("break");
 
-for(var i =0; i<arr.length;i++){
-    if(i==3){
-        continue;
-    }
-    console.log(arr[i]);
+// for(var i =0; i<arr.length;i++){
+//     if(i==3){
+//         continue;
+//     }
+//     console.log(arr[i]);
     
-}
-console.log("continue");
+// }
+// console.log("continue");
 
 // arr.forEach(function(element){
 //     console.log(element);
@@ -181,3 +181,13 @@ let j = 0;
 //     j++;
 // }
 // while (j < arr.length);
+
+
+let myArr=["Fan","Camera",34,null,true]
+
+console.log(myArr.length);  
+// myArr.pop(); //removing the last element
+// console.log(myArr); 
+// myArr.push("Poo");//to add the element
+myArr.shift()
+console.log(myArr); 
