@@ -189,5 +189,6 @@ console.log(myArr.length);
 // myArr.pop(); //removing the last element
 // console.log(myArr); 
 // myArr.push("Poo");//to add the element
-myArr.shift()
+// myArr.shift()
+myArr.unshift("Poo"); //add element on the first index
 console.log(myArr); 
