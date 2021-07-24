@@ -116,3 +116,30 @@ function avg(a,b){
 c1 = avg(4,6);
 c2 = avg(14, 16);
 console.log(c1, c2);
+
+//Conditional in Javascript
+var age=18;
+//Single if statement
+// if(age>20){
+//     console.log("You can apply for driving liscence.");
+// }
+// If-else statement
+// if(age>20){
+//     console.log("You can apply for driving liscence.");
+// }
+// else{
+//     console.log("You can't apply for driving liscence.");
+// }
+
+//if-else ladder
+
+if(age<2){
+    console.log("You can't apply for driving liscence.");
+}
+else if(age<10){
+    console.log("You still can't apply for driving liscence.");
+}
+else{
+    console.log("You can apply for driving liscence.");
+}
+console.log("end of ladder.");
