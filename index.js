@@ -157,7 +157,13 @@ for(var i =0; i<arr.length;i++){
 let j = 0;
 // const ab = 0;
 
-while(j<arr.length){
+// while(j<arr.length){
+//     console.log(arr[j]);
+//     j++;
+// }
+
+do {
     console.log(arr[j]);
     j++;
 }
+while (j < arr.length);
