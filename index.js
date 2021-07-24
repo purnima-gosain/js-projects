@@ -145,10 +145,24 @@ var y = 56;
 // console.log("end of ladder.");
 
 var arr = [1, 2, 3, 4, 5, 6];
-/*console.log(arr);
+console.log(arr);
 for(var i =0; i<arr.length;i++){
+    if(i==3){
+        break;
+    }
     console.log(arr[i]);
-}*/
+    
+}
+console.log("break");
+
+for(var i =0; i<arr.length;i++){
+    if(i==3){
+        continue;
+    }
+    console.log(arr[i]);
+    
+}
+console.log("continue");
 
 // arr.forEach(function(element){
 //     console.log(element);
@@ -162,8 +176,8 @@ let j = 0;
 //     j++;
 // }
 
-do {
-    console.log(arr[j]);
-    j++;
-}
-while (j < arr.length);
+// do {
+//     console.log(arr[j]);
+//     j++;
+// }
+// while (j < arr.length);
