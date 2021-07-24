@@ -110,15 +110,15 @@ var x=34;
 
 //Functions in javascript
 //
-function avg(a,b){
-    return (a+b)/2;
-}
-c1 = avg(4,6);
-c2 = avg(14, 16);
-console.log(c1, c2);
+// function avg(a,b){
+//     return (a+b)/2;
+// }
+// c1 = avg(4,6);
+// c2 = avg(14, 16);
+// console.log(c1, c2);
 
 //Conditional in Javascript
-var age=18;
+// var age=18;
 //Single if statement
 // if(age>20){
 //     console.log("You can apply for driving liscence.");
@@ -133,13 +133,23 @@ var age=18;
 
 //if-else ladder
 
-if(age<2){
-    console.log("You can't apply for driving liscence.");
-}
-else if(age<10){
-    console.log("You still can't apply for driving liscence.");
-}
-else{
-    console.log("You can apply for driving liscence.");
-}
-console.log("end of ladder.");
+// if(age<2){
+//     console.log("You can't apply for driving liscence.");
+// }
+// else if(age<10){
+//     console.log("You still can't apply for driving liscence.");
+// }
+// else{
+//     console.log("You can apply for driving liscence.");
+// }
+// console.log("end of ladder.");
+
+var arr =[1,2,3,4,5,6];
+/*console.log(arr);
+for(var i =0; i<arr.length;i++){
+    console.log(arr[i]);
+}*/
+
+arr.forEach(function(element){
+    console.log(element);
+})
