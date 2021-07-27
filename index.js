@@ -204,3 +204,11 @@ let myString="Poo is very good. ";
 // console.log(myString.slice(0,3));
 // p=myString.replace("Poo","Pixi");
 // console.log(p, myString);
+
+let myDate = new Date();
+console.log(myDate);
+console.log(myDate.getTime());
+console.log(myDate.getFullYear());
+console.log(myDate.getDay());
+console.log(myDate.getMinutes());
+console.log(myDate.getHours());
