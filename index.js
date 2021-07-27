@@ -206,9 +206,44 @@ let myString="Poo is very good. ";
 // console.log(p, myString);
 
 let myDate = new Date();
-console.log(myDate);
-console.log(myDate.getTime());
-console.log(myDate.getFullYear());
-console.log(myDate.getDay());
-console.log(myDate.getMinutes());
-console.log(myDate.getHours());
+// console.log(myDate);
+// console.log(myDate.getTime());
+// console.log(myDate.getFullYear());
+// console.log(myDate.getDay());
+// console.log(myDate.getMinutes());
+// console.log(myDate.getHours());
+
+//DOM manipulation by Id
+let lm = document.getElementById('click');
+// console.log(lm);
+
+let lmc = document.getElementsByClassName('container');
+// console.log(lmc);
+// lmc[0].style.background = "yellow";
+lmc[0].classList.add("bg-primary");
+lmc[0].classList.add("text-success");
+
+// console.log(lm.innerHTML);
+// console.log(lm.innerText);
+
+// console.log(lmc[0].innerHTML);
+// console.log(lmc[0].innerText);
+
+
+tn = document.getElementsByTagName('div');
+console.log(tn);
+createdElm= document.createElement('p');
+createdElm.innerText = "This is a created para.";
+tn[0].appendChild(createdElm);
+createdE = document.createElement('b');
+createdE.innerText = "This is a created bold.";
+tn[0].replaceChild(createdE,createdElm);
+// removeChild(element); -->removes an element
+
+
+//Selecting using Query
+sel = document.querySelector('.container');
+console.log(sel);
+
+sel = document.querySelectorAll('.container');
+console.log(sel);
