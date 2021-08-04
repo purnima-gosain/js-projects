@@ -294,3 +294,9 @@ logKaro = ()=>{
 
 //use clearInterval and clearTimeout to cancel setInterval/setTimeout
 //clr = setInterval(logkaro,2000);
+
+
+
+//JavaScript LocalStorage
+//localStorage.setItem('name','poo');
+//localStorage.getItem('name');
