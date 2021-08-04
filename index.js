@@ -276,3 +276,15 @@ container.addEventListener('click',function(){
 //     console.log("Mouse down when clicked on conatiner.");
 // })
 
+
+//arrow functions
+// function summ(a,b){
+//     return a+b;
+// }
+
+summ = (a,b)=>{
+    return a+b;
+}
+
+//SetTimeout and Setinterval
+
