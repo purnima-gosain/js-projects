@@ -300,3 +300,14 @@ logKaro = ()=>{
 //JavaScript LocalStorage
 //localStorage.setItem('name','poo');
 //localStorage.getItem('name');
+//localStorage.removeItem('name');
+//localStorage.clear();  ->it clears all the item
+
+
+//JSON
+// obj={name:"Poo", length:1,a:{this:"that"}};
+// js = JSON.stringify(obj);
+// console.log(typeof js);
+// console.log(js);
+// parsed = JSON.parse(`{"name":"Poo","length":1,"a":{"this":"that"}}`);
+// console.log(parsed);
