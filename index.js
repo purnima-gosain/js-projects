@@ -287,4 +287,10 @@ summ = (a,b)=>{
 }
 
 //SetTimeout and Setinterval
+logKaro = ()=>{
+    console.log("Hello it's me log.");
+}
+// clr=setTimeout(logKaro,5000);
 
+//use clearInterval and clearTimeout to cancel setInterval/setTimeout
+//clr = setInterval(logkaro,2000);
