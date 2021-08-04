@@ -255,7 +255,7 @@ function clicked(){
 }
 
 window.onload = function(){
-    console.log("The document was loaded.");
+    // console.log("The document was loaded.");
 }
 
 container.addEventListener('click',function(){
@@ -311,3 +311,7 @@ logKaro = ()=>{
 // console.log(js);
 // parsed = JSON.parse(`{"name":"Poo","length":1,"a":{"this":"that"}}`);
 // console.log(parsed);
+
+//Template literals -BAckTicks
+ a=34;
+ console.log(`This is my ${a}`);
