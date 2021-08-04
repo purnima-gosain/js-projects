@@ -247,3 +247,32 @@ console.log(sel);
 
 sel = document.querySelectorAll('.container');
 console.log(sel);
+
+
+function clicked(){
+    console.log("The button is clicked.");
+
+}
+
+window.onload = function(){
+    console.log("The document was loaded.");
+}
+
+container.addEventListener('click',function(){
+    document.querySelectorAll('.conatiner')[1].innerHTML= " we have clicked.";
+    console.log("Clicked done.");
+}
+)
+// container.addEventListener('mouseover',function(){
+//     console.log("Mouse on container.");
+// })
+// container.addEventListener('mouseout',function(){
+//     console.log("Mouse out of the container.");
+// })
+// container.addEventListener('mouseup',function(){
+//     console.log("Mouse up when clicked on conatiner.");
+// })
+// container.addEventListener('mousedown',function(){
+//     console.log("Mouse down when clicked on conatiner.");
+// })
+
