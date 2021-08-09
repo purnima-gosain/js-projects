@@ -83,7 +83,7 @@
                     <th scope="col">Actions</th>
                   </tr>
                 </thead>
-                <tbody>
+                <tbody id="tableBody">
                   <tr>
                     <th scope="row">1</th>
                     <td>Get some coffee</td>
@@ -113,11 +113,26 @@
               localStorage.setItem('itemsJson',JSON.stringify(itemJsonArray));
             }
             else{
-              itemJsonArrayStr = localStorage.getItem('itemJson');
+              itemJsonArrayStr = localStorage.getItem('itemsJson');
               itemJsonArray = JSON.parse(itemJsonArrayStr);
               itemJsonArray.push([tit, desc]);
               localStorage.setItem('itemsJson',JSON.stringify(itemJsonArray));
             }
+
+            //populate table
+            tableBody= document.getElementById("tableBody");
+            let str = "";
+            itemJsonArray.forEach((element,index)=>{
+              str += `
+              <tr>
+                <th scope="row">${index}</th>
+                <td>${element[0]}</td>
+                <td>${element[1]}</td>
+                <td><button class="btn btn-primary">Delete</button></td>
+              </tr>`;
+            });
+            tableBody.innerHTML = str;
+
         })
     </script>
 
