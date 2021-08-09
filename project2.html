@@ -73,8 +73,8 @@
     </div>
 
 
-    <button type="submit" id="add" class="btn btn-primary" style="background-color:darkmagenta;">Add to list</button>
-    <button type="submit" id="clear" class="btn btn-primary" style="background-color:darkmagenta;" onclick="clear">Clear list</button>
+    <button id="add" class="btn btn-primary" style="background-color:darkmagenta;">Add to list</button>
+    <button id="clear" class="btn btn-primary" style="background-color:darkmagenta;" onclick="clearStorage()">Clear list</button>
     <div id="items" class="my-4">
       <h2>Your Items</h2>
       <table class="table">
@@ -161,6 +161,14 @@
       localStorage.setItem('itemsJson', JSON.stringify(itemJsonArray));
       update();
     }
+
+    function clearStorage(){
+      if(confirm("Do you really want to clear?")){
+      console.log("Clear");
+      localStorage.clear();
+      update();
+    }
+  }
   </script>
 
   <!-- Option 2: Separate Popper and Bootstrap JS -->
